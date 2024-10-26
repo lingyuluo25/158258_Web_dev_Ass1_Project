@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="myStyle.css">
+    <script src="myScript.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Webpage</h1>
+    </header>
+    
+    <main>
+        <h3>Login</h3>
+        <label for="username">Username:</label>
+        <input type="text" id="username">
+    
+        <label for="password">Password:</label>
+        <input type="text" id="password">
+        <button onclick="loginEvent()">Login</button>
+    
+        <p id="output"><span id="msg"> </span></p>
+
+        <h2>Introduction</h2>
+        <p>Welcome to my webpage. Here you'll find a variety of content and useful links.</p>
+
+        <h3>Useful Link</h3>
+        <p>Check out the <a href="https://www.massey.ac.nz/" target="_blank">Massey Web Development Course</a>.</p>
+
+        <h3>HTML5 Logo</h3>
+        <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" alt="HTML5 Logo">
+
+        <h3>Topics Covered</h3>
+        <ul>
+            <li>HTML Basics</li>
+            <li>CSS Styling</li>
+            <li>JavaScript Programming</li>
+        </ul>
+
+        <h3>Contect Us</h3>
+        <label for="useremail">Enter your Email:</label>
+        <input type="text" id="useremail">
+        <button onclick="storeEmail()">Store Email</button>
+
+        <p id="output">Email in sessionStorage: <span id="storedEmail">Not stored yet</span></p>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 My Webpage</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,65 @@
+/* myStyle.css */
+
+/* Student Name: Lingyu Luo */
+
+/* Student ID :24023295*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #6495ED;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #f4f4f4;
+}
+
+h2, h3 {
+    color: #6495ED;
+}
+
+a {
+    color: #6495ED;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul, ol {
+    margin-left: 10px;
+}
+
+img {
+    max-width: 100px;
+    display: block;
+    margin: 20px auto;
+}
+
